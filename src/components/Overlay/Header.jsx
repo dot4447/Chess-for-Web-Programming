@@ -12,10 +12,13 @@ export default function Header(){
                         className="mr-3 h-12"
                         alt="Logo"
                     />
+                    <div className="text-3xl font-bold text-black">
+                    MY<span className="text-amber-700">CHESS</span>
+                    </div>
                 </Link>
               
                 <div
-                    className="hidden justify-between items-center w-full lg:flex lg:w-170"
+                    className="hidden justify-between items-center w-full lg:flex lg:w-60"
                     id="mobile-menu-2"
                 >
                     <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
