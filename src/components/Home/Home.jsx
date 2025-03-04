@@ -32,7 +32,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        {/* <ChessLanding/> */}
+        {<ChessLanding/>}
 
         {/* Features Section */}
         <section className="py-20 px-4">
