@@ -6,9 +6,10 @@ export default function Home() {
     return (
         
       <main>
+        {/* <ChessLanding/> */}
         {/* Hero Section */}
-        <section className="min-h-screen flex items-center justify-center text-center px-4">
-          <div className="max-w-4xl mx-auto">
+        <section className="min-h-screen flex items-center justify-center text-center px-4 bg-[url(<ChessLanding]">
+          <div className="max-w-4xl mx-auto ">
             
             <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">
               Master the Game of Kings
@@ -19,7 +20,7 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <Link
                 to="#"
-                className="bg-amber-700 hover:bg-amber-800 text-white px-8 py-3 rounded-md text-lg font-medium transition-colors"
+                className="bg-amber-900 hover:bg-amber-800 text-white px-8 py-3 rounded-md text-lg font-medium transition-colors"
               >
                 Play Now
               </Link>
@@ -32,7 +33,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-        {<ChessLanding/>}
 
         {/* Features Section */}
         <section className="py-20 px-4">
@@ -64,9 +64,9 @@ export default function Home() {
 
         {/* About Section */}
         <section className="py-20 px-4 bg-black/50">
-          <div className="container mx-auto">
+          <div className="container mx-auto bg-black/50 backdrop-blur-sm p-6 rounded-lg">
             <h2 className="text-4xl font-bold text-center mb-16">About MyChess</h2>
-            <div className="max-w-3xl mx-auto">
+            <div className="max-w-3xl mx-auto grid-cols-1">
               <p className="text-lg mb-6">
                 MyChess is a premier online platform dedicated to the royal game of chess. We provide a space for players
                 of all skill levels to enjoy the game, improve their abilities, and connect with a global community of
@@ -81,8 +81,8 @@ export default function Home() {
         </section>
   
         {/* Call to Action */}
-        <section className="py-20 px-4">
-          <div className="container mx-auto text-center">
+        {/* <section className="py-20 px-4">
+          <div className="container mx-auto text-center bg-black/50 backdrop-blur-sm p-6 rounded-lg">
             <h2 className="text-4xl font-bold mb-6">Ready to Make Your Move?</h2>
             <p className="text-xl mb-10 max-w-2xl mx-auto">
               Join thousands of players already enjoying MyChess and start your journey today.
@@ -94,7 +94,7 @@ export default function Home() {
               Sign Up Now
             </Link>
           </div>
-        </section>
+        </section> */}
       </main>
     )
   }

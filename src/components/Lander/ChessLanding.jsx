@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react"
 import ChessBg from "./ChessBg"
+import { Outlet } from "react-router-dom"
 
 
 function ChessLanding() {
@@ -21,8 +22,7 @@ function ChessLanding() {
       <div className="fixed inset-0 bg-black/60">
         <ChessBg scrollY={scrollY} />
       </div>
-      
-      
+      {/* <Outlet/>  */}
     </div>
   )
 }
