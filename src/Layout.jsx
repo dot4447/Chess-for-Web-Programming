@@ -8,8 +8,7 @@ function Layout(params) {
         <>
             <Header/>
             <Outlet/>
-            <Footer/>
-            {/* <ChessLanding/> */}
+            <Footer/>              
         </>
     )
 }

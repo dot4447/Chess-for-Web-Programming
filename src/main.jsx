@@ -23,8 +23,8 @@ const router = createBrowserRouter([
       },
       {
         path:'/practice',
-        element:<Offline_practice/>
-      }
+        element:<Offline_practice/>,
+      },
     ]
   }
 ])
