@@ -1,1 +1,1 @@
-var board = new Chessboard('board', ChessUtils.FEN.emptyId);
+export var board = new Chessboard('board', ChessUtils.FEN.emptyId);
