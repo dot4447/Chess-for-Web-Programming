@@ -2,6 +2,8 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import { Container } from "@mui/material";
+import Game from "./Game";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,8 +11,10 @@ function App() {
   return (
    <>
       <h1 className='bg-gray-600 p-4 text-3xl text-orange-400'>Loading...</h1>
+      <Container>
+       <Game />
+     </Container>
    </>
   )
 }
-
 export default App
