@@ -27,9 +27,6 @@ cd ..\chess_client
 ```
 You should now be in the chess client folder. Now run:
 ```bash
-npm i
-```
-```bash
 npm install react-chessboard chess.js socket.io-client @mui/material @emotion/react @emotion/styled
 ```
 Do not close the terminal yet to run the program. Simply switch tabs to your file explorer.
