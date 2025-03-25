@@ -12,7 +12,7 @@ export default function Footer(){
             <div className="text-sm text-gray-400 ">
                 © {new Date().getFullYear()} MyChess by PDA
                 <br/>
-                Made with love by Adidev, Aditya and Prateek
+                Made with love by Adidev, Aditya, and Prateek
             </div>
             </div>
            
