@@ -10,9 +10,9 @@ export default function Footer(){
             </div>
             <div className="flex justify-center">
             <div className="text-sm text-gray-400 ">
-                © {new Date().getFullYear()} MyChess. All rights reserved.
+                © {new Date().getFullYear()} MyChess by PDA
                 <br/>
-                Made for Web Programming course(BCSE203E)
+                Made with love by Adidev, Aditya and Prateek
             </div>
             </div>
            
