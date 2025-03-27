@@ -4,7 +4,7 @@ import './index.css'
 import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Layout from './Layout.jsx'
-import { Home, Online, Offline_practice, Computer } from './components/index.js'
+import { Home, Online, Offline_practice} from './components/index.js'
 
 
 
@@ -20,15 +20,16 @@ const router = createBrowserRouter([
       {
         path:'/online',
         element:<Online/>
+        
       },
       {
         path:'/practice',
         element:<Offline_practice/>,
       },
-      {
-        path:'/computer',
-        element:<Computer/>,
-      },
+      // {
+      //   path:'/computer',
+      //   element:<Computer/>,
+      // },
     ]
   }
 ])
