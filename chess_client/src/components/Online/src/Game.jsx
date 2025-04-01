@@ -42,7 +42,7 @@ function Game({ players, room, orientation, cleanup }) {
 
         setMoveHistory((prevHistory) => {
           const newHistory = [...prevHistory];
-          const moveNumber = Math.ceil((newHistory.length + 1) / 2);
+          const moveNumber = Math.floor((newHistory.length + 1) / 2) + 1;
 
           if (result.color === "w") {
             newHistory.push({ moveNumber, white: result.san, black: "" });
