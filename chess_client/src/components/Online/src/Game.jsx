@@ -146,7 +146,7 @@ function Game({ players, room, orientation, cleanup }) {
   }, [room, cleanup]);
 
   return (
-    <div className="bg-slate-900">
+    <div>
     <Stack>
       <Card>
         <CardContent>

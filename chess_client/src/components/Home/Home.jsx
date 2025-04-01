@@ -37,7 +37,7 @@ export default function Home() {
   ]
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#1A2747] via-black to-[#0A1128] text-white pt-24">
+    <div className="min-h-screen bg-gradient-to-br from-[#1A2747] via-black to-[#0A1128] text-white pt-24 bg-slate-900">
       {/* Hero Section */}
       <div className="container mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
         {/* Left Content */}
